@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #383838;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-family: "StratosWeb";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 38px;
+  text-align: center;
+}
+
+.main-content {
+  background-color: #313a49;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+  border-radius: 20px;
+  height: 30rem;
+  position: relative;
+  padding: 0 3rem;
+}
+
+.adviceID {
+  position: absolute;
+  top: 20%;
+  font-size: 2rem;
+}
+
+.advice {
+  position: absolute;
+  bottom: -30px;
+}
+
+button {
+  background-color: #53ffab;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1df08a;
+}
+
+.line {
+  position: absolute;
+  bottom: 6rem;
+  width: 80%;
+}
