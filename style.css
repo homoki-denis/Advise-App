@@ -13,7 +13,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: #fff;
   font-family: "StratosWeb";
   font-style: normal;
@@ -34,6 +33,7 @@ body {
   height: 30rem;
   position: relative;
   padding: 0 3rem;
+  margin: 0 1rem;
 }
 
 .adviceID {
@@ -64,4 +64,14 @@ button:hover {
   position: absolute;
   bottom: 6rem;
   width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    font-size: 1.3rem;
+  }
+
+  .adviceID {
+    font-size: 1.5rem;
+  }
 }
